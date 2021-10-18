@@ -1,0 +1,56 @@
+.contact {
+    position: relative;
+    background: linear-gradient(rgba(7, 25, 74,0.8), rgba(7, 25, 74,0.8)), url(../img/contact-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+}
+
+.contact-title {
+    padding-bottom: 15px;
+}
+
+.contact-title h2 {
+    letter-spacing: 2px;
+}
+.contact-title p {
+    font-size: 12px;
+}
+
+.form-control {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter-input {
+    width: 100%;
+    max-width: 15rem;
+    position: relative;
+    padding: 5px 10px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+.newsletter-btn {
+    cursor: pointer;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    margin-left: 13rem;
+}
+
+.newsletter-btn i {
+    color: #fff;
+}

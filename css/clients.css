@@ -1,0 +1,34 @@
+.clients {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/wall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 150px;
+    padding: 20px 0;
+}
+
+.clients .flex {
+    flex-wrap: wrap;
+}
+
+.clients img {
+    width: 7rem;
+    filter: grayscale(100%);
+    margin: 0 40px;
+}
+.clients img:hover {
+    filter: grayscale(0);
+}
+
+@media(max-width: 768px) {
+    .clients {
+        height: 350px;
+    }
+}
+@media(max-width: 500px) {
+    .clients {
+        height: 400px;
+    }
+}

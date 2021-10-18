@@ -1,0 +1,45 @@
+.header .flex {
+    justify-content: space-between;
+}
+
+.language select {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--primary-color);
+}
+.language select option {
+    color: var(--primary-color);
+}
+
+.header li {
+    padding: 0 10px;
+    border-right: 1px solid var(--primary-color);
+}
+.header li:last-child {
+    border-right: none;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.theme {
+    position: absolute;
+    right: 8rem;
+    top: 15px;
+    width: 20px;
+    cursor: pointer;
+}
+
+@media(max-width: 768px) {
+    .theme {
+        right: 1rem;
+    }
+}
+@media(max-width: 500px) {
+    .menu-btn {
+        display: block;
+        cursor: pointer;
+    }
+}

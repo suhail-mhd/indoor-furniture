@@ -1,0 +1,101 @@
+footer {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../img/foot-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    color: #f4f4f4;
+    padding-top: 30px;
+}
+
+footer a {
+    color: #f4f4f4;
+}
+
+footer .grid {
+    text-align: left;
+}
+
+footer p,
+footer li {
+    font-size: 13px;
+    opacity: .9;
+}
+
+.foot-head h3 {
+    margin-left: 8px;
+    color: #fff;
+} 
+.foot-head h3::before {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 16px;
+    background: var(--golden-color);
+    margin-left: -8px;
+    margin-top: 5px;
+}
+
+.company p {
+    padding-bottom: 20px;
+}
+
+footer li {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+footer a:hover {
+    color: var(--golden-color);
+}
+
+.about-us a.active,
+.about-us a.active i {
+    color: var(--golden-color);
+    opacity: 1;
+}
+
+.about-us a:hover i,
+.account a:hover i {
+    opacity: 1;
+}
+
+.time li {
+    border-bottom: 1px solid #f4f4f4;
+    width: 70%;
+}
+.time li:last-child {
+    border-bottom: none;
+}
+
+.about-us i,
+.account i {
+    opacity: 0;
+}
+
+.foot-content {
+    margin-top: 40px;
+}
+
+.credits img {
+    width: 3rem;
+    margin-left: 30px;
+}
+
+@media(max-width: 768px) {
+    footer {
+        height: 650px;
+    }
+    footer .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media(max-width: 500px) {
+    footer {
+        height: 850px;
+    }
+    footer .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

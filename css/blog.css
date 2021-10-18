@@ -1,0 +1,130 @@
+.blog-title {
+    padding-bottom: 20px;
+}
+.blog-title h2 {
+    letter-spacing: 2px;
+}
+
+.blog-title h2::before,
+.blog-title h2::after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 25px;
+    background: var(--golden-color);
+}
+
+.blog-title h2::before {
+    margin-left: -10px;
+    margin-top: 5px;
+}
+
+.blog-title h2::after {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.blog .grid {
+    gap: 0;
+}
+
+.blog-img img {
+    position: relative;
+    width: 310px;
+    height: 200px;
+}
+
+.blog-card {
+    position: relative;
+    background: #fff;
+    color: #333;
+    width: 310px;
+    height: 200px;
+    padding: 20px;
+}
+.blog-card-1::before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    clip-path: polygon(50% 0%, 50% 100%, 50% 100%, 0% 50%);
+    top: 50%;
+    left: -10px;
+    z-index: 2;
+}
+.blog-card-2::before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 50% 100%);
+    top: 50%;
+    right: -15px;
+    z-index: 2;
+}
+.blog-card h6 span {
+    font-size: 20px;
+}
+.blog-card h5  {
+    font-size: 20px;
+    padding: 5px 0;
+}
+.blog-card p  {
+    font-size: 14px;
+    padding: 10px 0;
+}
+.blog-card .btn  {
+    font-size: 10px;
+}
+
+@media(max-width: 768px) {
+    .blog .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+
+    .blog-img img {
+        width: 350px;
+        height: 250px;
+    }
+    
+    .blog-card {
+        width: 350px;
+        height: 250px;
+    }
+}
+@media(max-width: 768px) {
+    .blog .grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .blog-img img {
+        width: 350px;
+        height: 250px;
+        justify-self: center;
+        margin: 0 auto;
+    }
+    
+    .blog-card {
+        width: 350px;
+        height: 250px;
+        justify-self: center;
+        margin: 0 auto;
+    }
+
+    .blog-card-1::before {
+        background: #fff;
+        top: -15px;
+        left: 50%;
+        transform: rotate(90deg);
+    }
+    .blog-card-2::before {
+        background:#fff;
+        transform: rotate(90deg);
+        top: 230px;
+        left: 50%;
+    }
+}

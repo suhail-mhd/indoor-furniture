@@ -1,0 +1,228 @@
+.product {
+    margin-bottom: 3rem;
+}
+
+.products {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .card {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    transition: all .3s ease-in;
+    width: 200px;
+    height: 260px;
+    overflow: hidden;
+}
+.product .card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.product .card:hover .shopping i, 
+.product .card:hover .enquiry {
+    opacity: 1;
+}
+
+.product-title h2 {
+    letter-spacing: 2px;
+}
+
+.product-title-1 h2::before,
+.product-title-1 h2::after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 55px;
+    background: var(--golden-color);
+}
+
+.product-title-1 h2::before {
+    margin-left: -35px;
+    margin-top: 5px;
+}
+
+.product-title-1 h2::after {
+    margin-left: 10px;
+    margin-top: -25px;
+}
+
+.product-title-2 h2::before,
+.product-title-2 h2::after {
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 55px;
+    background: var(--golden-color);
+}
+
+.product-title-2 h2::before {
+    margin-left: -40px;
+    margin-top: 5px;
+}
+
+.product-title-2 h2::after {
+    margin-left: 10px;
+    margin-top: -25px;
+}
+
+.shopping i {
+    position: absolute;
+    background: var(--golden-color);
+    color: #fff;
+    left: -20px;
+    top: -20px;
+    font-size: 12px;
+    padding: 10px;
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.enquiry {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 40%;
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+.enquiry a {
+    padding: 5px;
+    margin: 3px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enquiry a:hover {
+    background: steelblue;
+    color: #fff;
+}
+
+.product-title p {
+    font-size: 14px;
+}
+
+.product-name {
+    color: #333;
+}
+.product-name .catagory {
+    font-size: 12px;
+}
+
+.price  {
+    bottom: 0;
+}
+
+.client {
+    width: 5rem;
+    margin: auto;
+}
+
+.section-head-1 {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/umbra-sofa-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 500px;
+    transform: translateX(55px);
+}
+
+.product-head-1 h1 {
+    position: absolute;
+    color: #fff;
+    writing-mode: vertical-lr;
+    transform: translateX(26rem);
+    margin-top: 8rem;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.section-head-1 img {
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    transform: translateX(-23rem);
+    margin-top: 80px;
+}
+
+.section-head-2 {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/indoor-chair-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 500px;
+    /* transform: translateX(55px); */
+}
+
+.product-head-2 h1 {
+    position: absolute;
+    color: #fff;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    margin-left: 2rem;
+    margin-top: 6rem;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.section-head-2 img {
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    transform: translateX(-10rem);
+    margin-top: 80px;
+}
+
+@media(max-width: 768px) {
+    .section-head-1 img {
+        width: 450px;
+        height: 300px;
+        transform: translateX(-20rem);
+        margin-top: 110px;
+    }
+}
+@media(max-width: 500px) {
+    .section-head-1 {
+        width: 100%;
+        height: 500px;
+        transform: translateX(0);
+    }
+
+    .product-head-1 h1 {
+        writing-mode: initial;
+        transform: translateX(5rem);
+        margin-top: 0;
+    }
+    
+    .section-head-1 img {
+        width: 500px;
+        height: 350px;
+        transform: translateX(-15rem);
+    }
+
+    .section-head-2 {
+        width: 100%;
+    }
+    
+    .product-head-2 h1 {
+        writing-mode: initial;
+        transform: rotate(0);
+        margin-left: 5rem;
+        margin-top: 0;
+    }
+    
+    .section-head-2 img {
+        width: 500px;
+        height: 350px;
+        transform: translateX(-15rem);
+    }
+}

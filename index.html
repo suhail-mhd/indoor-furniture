@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umbra - Furniture</title>
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- vendor css -->
+    <link href="vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section class="header animate__animated animate__fadeInDown py-1">
+        <div class="container-1 flex">
+            <div class="language">
+                <select name="language" id="language">
+                    <option value="English">English</option>
+                    <option value="French">French</option>
+                </select>
+            </div>
+            <div class="sign-up flex">
+                <li><a href="#">My Wishlist</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">Checkout</a></li>
+            </div>
+            <div class="menu-btn">
+                <i class="ri-menu-3-line"></i>
+            </div>
+        </div>
+        <div class="theme">
+            <img src="img/moon.png" alt="">
+        </div>
+    </section>
+
+    <section class="navbar">
+        <div class="container-1">
+            <div class="nav grid grid-3">
+                <div class="search-field animate__animated animate__fadeInLeft animate__delay-2s">
+                    <input type="search" placeholder="search">
+                    <i class="ri-search-line search-icon"></i>
+                </div>
+                <div class="logo animate__animated animate__fadeInUp animate__delay-1s">
+                    <h1 class="primary-font">Umbra</h1>
+                    <p class="text-uppercase">Furniture</p>
+                </div>
+                <div class="cart animate__animated animate__fadeInRight animate__delay-2s flex">
+                    <div class="cart-icon">
+                        <i class="ri-shopping-bag-line"></i>
+                    </div>
+                    <div class="cart-text">
+                        <p>Cart(2) <br><i class='bx bx-pound'></i>163.00 </p>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="nav-item active animate__animated animate__fadeIn animate__delay-3s">
+                <div class="close-btn">
+                    <i class="ri-close-line"></i>
+                </div>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Accesories</a></li>
+                <li><a href="#">Lookbook</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="container-1">
+            <div class="hero-content">
+                <h1 class="primary-font animate__animated animate__fadeInUp animate__delay-3s">Luxury Chair <br> Classic
+                    Furniture</h1>
+                <p class="animate__animated animate__fadeInUp animate__delay-4s">sale up to 50% of all sofas</p>
+                <a href="#" class="btn animate__animated animate__fadeInUp animate__delay-5s">shop now <i
+                        class="ri-arrow-right-s-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about text-center py-5">
+        <div class="container">
+            <div data-aos="fade-up" class="about-content">
+                <h2 class="primary-font text-uppercase">Do you love us? purchase this theme!</h2>
+                <p class="py-1" style="width: 50%; margin: auto;">Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit. Quas sunt officia sequi nesciunt dolorum asperiores unde molestiae placeat doloribus adipisci,
+                    aut quae! Ipsam id, modi tenetur rem illo suscipit voluptatem?</p>
+                <a href="#" class="btn">about us <i class="ri-arrow-right-s-line"></i></a>
+                <a href="#" class="btn">purchase</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="product">
+        <div class="container grid">
+            <div class="product-details">
+                <div data-aos="fade-up" data-aos-duration="500" class="product-title product-title-1">
+                    <h2 class="primary-font text-uppercase">Umbra design <br> classic furniture</h2>
+                    <p><em>Lorem, ipsum dolor</em></p>
+                </div>
+                <div class="products grid">
+                    <div data-aos="fade-right" data-aos-duration="1000" class="card">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="shopping">
+                                        <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                                    </div>
+                                    <div class="product-name">
+                                        <p class="primary-font text-uppercase weight-bold ">umbra sofa</p>
+                                        <p class="catagory">Classic</p>
+                                    </div>
+                                    <div class="product-img">
+                                        <img src="img/products/sofa1.jpg" alt="">
+                                    </div>
+                                    <div class="enquiry">
+                                        <a href="#" title="Details"><i class="ri-pencil-line"></i></a>
+                                        <a href="#" title="Like"><i class="ri-heart-line"></i></a>
+                                        <a href="#" title="Zoom"><i class="ri-zoom-in-line"></i></a>
+                                    </div>
+                                    <div class="price">
+                                        <h5 class="golden-color"><i class='bx bx-pound'></i>219.00</h5>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="shopping">
+                                        <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                                    </div>
+                                    <div class="product-name">
+                                        <p class="primary-font text-uppercase weight-bold ">umbra sofa</p>
+                                        <p class="catagory">Classic</p>
+                                    </div>
+                                    <div class="product-img">
+                                        <img src="img/products/sofa2.png" alt="">
+                                    </div>
+                                    <div class="enquiry">
+                                        <a href="#" title="Details"><i class="ri-pencil-line"></i></a>
+                                        <a href="#" title="Like"><i class="ri-heart-line"></i></a>
+                                        <a href="#" title="Zoom"><i class="ri-zoom-in-line"></i></a>
+                                    </div>
+                                    <div class="price">
+                                        <h5 class="golden-color"><i class='bx bx-pound'></i>219.00</h5>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="shopping">
+                                        <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                                    </div>
+                                    <div class="product-name">
+                                        <p class="primary-font text-uppercase weight-bold ">umbra sofa</p>
+                                        <p class="catagory">Classic</p>
+                                    </div>
+                                    <div class="product-img">
+                                        <img src="img/products/sofa3.png" alt="">
+                                    </div>
+                                    <div class="enquiry">
+                                        <a href="#" title="Details"><i class="ri-pencil-line"></i></a>
+                                        <a href="#" title="Like"><i class="ri-heart-line"></i></a>
+                                        <a href="#" title="Zoom"><i class="ri-zoom-in-line"></i></a>
+                                    </div>
+                                    <div class="price" style="transform: translateY(40px);">
+                                        <h5 class="golden-color"><i class='bx bx-pound'></i>219.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-right" data-aos-duration="500" class="card">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="shopping">
+                                        <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                                    </div>
+                                    <div class="product-name">
+                                        <p class="primary-font text-uppercase weight-bold ">blue wing sofa</p>
+                                        <p class="catagory">Armsofa</p>
+                                    </div>
+                                    <div class="product-img">
+                                        <img src="img/products/sofa4.png" alt="">
+                                    </div>
+                                    <div class="enquiry">
+                                        <a href="#" title="Details"><i class="ri-pencil-line"></i></a>
+                                        <a href="#" title="Like"><i class="ri-heart-line"></i></a>
+                                        <a href="#" title="Zoom"><i class="ri-zoom-in-line"></i></a>
+                                    </div>
+                                    <div class="price">
+                                        <h5 class="golden-color"><i class='bx bx-pound'></i>350.00</h5>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="shopping">
+                                        <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                                    </div>
+                                    <div class="product-name">
+                                        <p class="primary-font text-uppercase weight-bold ">blue wing sofa</p>
+                                        <p class="catagory">Armsofa</p>
+                                    </div>
+                                    <div class="product-img">
+                                        <img src="img/products/sofa5.png" alt="">
+                                    </div>
+                                    <div class="enquiry">
+                                        <a href="#" title="Details"><i class="ri-pencil-line"></i></a>
+                                        <a href="#" title="Like"><i class="ri-heart-line"></i></a>
+                                        <a href="#" title="Zoom"><i class="ri-zoom-in-line"></i></a>
+                                    </div>
+                                    <div class="price">
+                                        <h5 class="golden-color"><i class='bx bx-pound'></i>350.00</h5>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="shopping">
+                                        <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                                    </div>
+                                    <div class="product-name">
+                                        <p class="primary-font text-uppercase weight-bold ">blue wing sofa</p>
+                                        <p class="catagory">Armsofa</p>
+                                    </div>
+                                    <div class="product-img">
+                                        <img src="img/products/sofa6.png" alt="">
+                                    </div>
+                                    <div class="enquiry">
+                                        <a href="#" title="Details"><i class="ri-pencil-line"></i></a>
+                                        <a href="#" title="Like"><i class="ri-heart-line"></i></a>
+                                        <a href="#" title="Zoom"><i class="ri-zoom-in-line"></i></a>
+                                    </div>
+                                    <div class="price">
+                                        <h5 class="golden-color"><i class='bx bx-pound'></i>350.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="client">
+                    <img src="img/clients/client7.png" alt="">
+                </div>
+            </div>
+            <div class="section-head-1">
+                <div class="product-head-1">
+                    <h1 class="primary-font text-uppercase">umbra sofa</h1>
+                </div>
+                <img src="img/umbra-sofa.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="product">
+        <div class="container grid">
+            <div class="section-head-2">
+                <div class="product-head-2">
+                    <h1 class="primary-font text-uppercase">indoor chair</h1>
+                </div>
+                <img src="img/indoor-chair.jpg" alt="">
+            </div>
+            <div class="product-details">
+                <div data-aos="fade-up" data-aos-duration="500" class="product-title product-title-2">
+                    <h2 class="primary-font text-uppercase">New arrival <br> indoor lookbook</h2>
+                    <p><em>Lorem, ipsum dolor</em></p>
+                </div>
+                <div class="products grid">
+                    <div data-aos="fade-left" data-aos-duration="500" class="card">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="shopping">
+                                        <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                                    </div>
+                                    <div class="product-name">
+                                        <p class="primary-font text-uppercase weight-bold ">umbra chair</p>
+                                        <p class="catagory">Classic</p>
+                                    </div>
+                                    <div class="product-img">
+                                        <img src="img/products/chai1.png" alt="">
+                                    </div>
+                                    <div class="enquiry">
+                                        <a href="#" title="Details"><i class="ri-pencil-line"></i></a>
+                                        <a href="#" title="Like"><i class="ri-heart-line"></i></a>
+                                        <a href="#" title="Zoom"><i class="ri-zoom-in-line"></i></a>
+                                    </div>
+                                    <div class="price">
+                                        <h5 class="golden-color"><i class='bx bx-pound'></i>219.00</h5>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="shopping">
+                                        <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                                    </div>
+                                    <div class="product-name">
+                                        <p class="primary-font text-uppercase weight-bold ">umbra chair</p>
+                                        <p class="catagory">Classic</p>
+                                    </div>
+                                    <div class="product-img">
+                                        <img src="img/products/chair2.png" alt="">
+                                    </div>
+                                    <div class="enquiry">
+                                        <a href="#" title="Details"><i class="ri-pencil-line"></i></a>
+                                        <a href="#" title="Like"><i class="ri-heart-line"></i></a>
+                                        <a href="#" title="Zoom"><i class="ri-zoom-in-line"></i></a>
+                                    </div>
+                                    <div class="price">
+                                        <h5 class="golden-color"><i class='bx bx-pound'></i>219.00</h5>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="shopping">
+                                        <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                                    </div>
+                                    <div class="product-name">
+                                        <p class="primary-font text-uppercase weight-bold ">umbra chair</p>
+                                        <p class="catagory">Classic</p>
+                                    </div>
+                                    <div class="product-img">
+                                        <img src="img/products/chair3.png" alt="">
+                                    </div>
+                                    <div class="enquiry">
+                                        <a href="#" title="Details"><i class="ri-pencil-line"></i></a>
+                                        <a href="#" title="Like"><i class="ri-heart-line"></i></a>
+                                        <a href="#" title="Zoom"><i class="ri-zoom-in-line"></i></a>
+                                    </div>
+                                    <div class="price">
+                                        <h5 class="golden-color"><i class='bx bx-pound'></i>219.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div data-aos="fade-left" data-aos-duration="1000" class="card">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="shopping">
+                                        <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                                    </div>
+                                    <div class="product-name">
+                                        <p class="primary-font text-uppercase weight-bold ">blue wing chair</p>
+                                        <p class="catagory">Armsofa</p>
+                                    </div>
+                                    <div class="product-img">
+                                        <img src="img/products/chair4.png" alt="">
+                                    </div>
+                                    <div class="enquiry">
+                                        <a href="#" title="Details"><i class="ri-pencil-line"></i></a>
+                                        <a href="#" title="Like"><i class="ri-heart-line"></i></a>
+                                        <a href="#" title="Zoom"><i class="ri-zoom-in-line"></i></a>
+                                    </div>
+                                    <div class="price" style="transform: translateY(40px);">
+                                        <h5 class="golden-color"><i class='bx bx-pound'></i>350.00</h5>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="shopping">
+                                        <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                                    </div>
+                                    <div class="product-name">
+                                        <p class="primary-font text-uppercase weight-bold ">blue wing chair</p>
+                                        <p class="catagory">Armchair</p>
+                                    </div>
+                                    <div class="product-img">
+                                        <img src="img/products/chair5.png" alt="">
+                                    </div>
+                                    <div class="enquiry">
+                                        <a href="#" title="Details"><i class="ri-pencil-line"></i></a>
+                                        <a href="#" title="Like"><i class="ri-heart-line"></i></a>
+                                        <a href="#" title="Zoom"><i class="ri-zoom-in-line"></i></a>
+                                    </div>
+                                    <div class="price">
+                                        <h5 class="golden-color"><i class='bx bx-pound'></i>350.00</h5>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="shopping">
+                                        <a href="#"><i class="ri-shopping-cart-fill"></i></a>
+                                    </div>
+                                    <div class="product-name">
+                                        <p class="primary-font text-uppercase weight-bold ">blue wing chair</p>
+                                        <p class="catagory">Armsofa</p>
+                                    </div>
+                                    <div class="product-img">
+                                        <img src="img/products/chair6.png" alt="">
+                                    </div>
+                                    <div class="enquiry">
+                                        <a href="#" title="Details"><i class="ri-pencil-line"></i></a>
+                                        <a href="#" title="Like"><i class="ri-heart-line"></i></a>
+                                        <a href="#" title="Zoom"><i class="ri-zoom-in-line"></i></a>
+                                    </div>
+                                    <div class="price">
+                                        <h5 class="golden-color"><i class='bx bx-pound'></i>350.00</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="client">
+                    <img src="img/clients/client8.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="clients">
+        <div class="container flex">
+            <div data-aos="fade-up" data-aos-duration="500">
+                <img src="img/clients/client1.png" alt="">
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000">
+                <img src="img/clients/client2.png" alt="">
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1500">
+                <img src="img/clients/client3.png" alt="">
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="2000">
+                <img src="img/clients/client4.png" alt="">
+            </div>
+            <div data-aos="fade-up" data-aos-duration="2500">
+                <img src="img/clients/client5.png" alt="">
+            </div>
+
+            <div data-aos="fade-up" data-aos-duration="3000">
+                <img src="img/clients/client6.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="blog text-center py-5">
+        <div class="container">
+            <div data-aos="fade-up" data-aos-duration="500" class="blog-title">
+                <h2 class="primary-font text-uppercase">Furniture Blog</h2>
+                <p><em>Lastest News of Week</em></p>
+            </div>
+            <div data-aos="zoom-in" data-aos-duration="1000" class="blog-post grid grid-4 my-3">
+                <div class="blog-img">
+                    <img src="img/blog1.jpg" alt="">
+                </div>
+                <div class="blog-card blog-card-1">
+                    <h6 class="golden-color"><span>15</span> / JAN</h6>
+                    <h5>Underground Apartment</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ea suscipit repellat ipsa
+                        consequatur.</p>
+                    <a href="#" class="btn">Read More <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+                <div class="blog-img">
+                    <img src="img/blog2.jpeg" alt="">
+                </div>
+                <div class="blog-card blog-card-1">
+                    <h6 class="golden-color"><span>15</span> / JAN</h6>
+                    <h5>Underground Apartment</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ea suscipit repellat ipsa
+                        consequatur.</p>
+                    <a href="#" class="btn">Read More <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+                <div class="blog-card blog-card-2">
+                    <h6 class="golden-color"><span>15</span> / JAN</h6>
+                    <h5>Underground Apartment</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ea suscipit repellat ipsa
+                        consequatur.</p>
+                    <a href="#" class="btn">Read More <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+                <div class="blog-img">
+                    <img src="img/blog3.jpg" alt="">
+                </div>
+                <div class="blog-card blog-card-2">
+                    <h6 class="golden-color"><span>15</span> / JAN</h6>
+                    <h5>Underground Apartment</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ea suscipit repellat ipsa
+                        consequatur.</p>
+                    <a href="#" class="btn">Read More <i class="ri-arrow-right-s-line"></i></a>
+                </div>
+                <div class="blog-img">
+                    <img src="img/blog4.jpg" alt="">
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1500">
+                <a href="#" class="btn">View more blog</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <div data-aos="fade-up" data-aos-duration="500" class="contact-title">
+                <h2 class="primary-font text-uppercase">Sign up for newsletter!</h2>
+                <p class="text-uppercase">Exclusive offer for new member!</p>
+            </div>
+            <form>
+                <div data-aos="fade-up" data-aos-duration="1000" class="form-control">
+                    <input type="email" class="newsletter-input" placeholder="Enter Your Email Address" name="mail"
+                        required>
+                    <button class="newsletter-btn"><i class="ri-send-plane-fill"></i></button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container grid grid-5">
+            <div data-aos="fade-right" data-aos-duration="500" class="company">
+                <div class="foot-head py-2">
+                    <h3 class="primary-font text-uppercase">Umbra Furniture</h3>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, assumenda, id porro placeat delectus.
+                </p>
+                <ul class="place">
+                    <li><a href="#"><i class='bx bx-current-location'></i> 100: Milacian Crest Street, Paris France</a>
+                    </li>
+                    <li><a href="#"><i class='bx bxs-phone'></i> +(084) 888 - 6783</a></li>
+                    <li><a href="#"><i class="ri-mail-open-fill"></i> indoor@Umbra.com</a></li>
+                </ul>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="1000" class="time">
+                <div class="foot-head py-2">
+                    <h3 class="primary-font text-uppercase">Opening time</h3>
+                </div>
+                <ul>
+                    <li>Mon - Fri: 8AM - 10PM</li>
+                    <li>Sat: 9AM - 8PM</li>
+                    <li>Sun: Closed</li>
+                </ul>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="1500" class="about-us">
+                <div class="foot-head py-2">
+                    <h3 class="primary-font text-uppercase">About</h3>
+                </div>
+                <ul>
+                    <li><a href="#"><i class="ri-arrow-right-s-line"></i>About Us</a></li>
+                    <li><a href="#" class="active"><i class="ri-arrow-right-s-line"></i>Shopping Guide</a></li>
+                    <li><a href="#"><i class="ri-arrow-right-s-line"></i>Delivery Information</a></li>
+                    <li><a href="#"><i class="ri-arrow-right-s-line"></i>Privacy Policy</a></li>
+                    <li><a href="#"><i class="ri-arrow-right-s-line"></i>Our Store</a></li>
+                </ul>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="2000" class="account">
+                <div class="foot-head py-2">
+                    <h3 class="primary-font text-uppercase">Account</h3>
+                </div>
+                <ul>
+                    <li><a href="#"><i class="ri-arrow-right-s-line"></i>My Account</a></li>
+                    <li><a href="#"><i class="ri-arrow-right-s-line"></i>Wishlist</a></li>
+                    <li><a href="#"><i class="ri-arrow-right-s-line"></i>Order Tracking</a></li>
+                    <li><a href="#"><i class="ri-arrow-right-s-line"></i>Shopping Info</a></li>
+                    <li><a href="#"><i class="ri-arrow-right-s-line"></i>Return Policy</a></li>
+                </ul>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="2500" class="social-media">
+                <div class="foot-head py-2">
+                    <h3 class="primary-font text-uppercase">Follow Us</h3>
+                </div>
+                <ul>
+                    <li><a href="#"><i class="ri-facebook-fill"></i> Facebook</a></li>
+                    <li><a href="#"><i class="ri-twitter-fill"></i> Twitter</a></li>
+                    <li><a href="#"><i class="ri-instagram-fill"></i> Instagram</a></li>
+                    <li><a href="#"><i class="ri-youtube-fill"></i> Youtube</a></li>
+                    <li><a href="#"><i class="ri-dribbble-line"></i> Dribble</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot-content text-center">
+            <div class="credits flex">
+                <img src="img/credit/paypal.svg.png" alt="">
+                <img src="img/credit/amazon.svg.png" alt="">
+                <img src="img/credit/visa.png" alt="">
+            </div>
+            <div class="foot">
+                <p>Copyright &copy; 2021 Umbra - Designed by Suhail - All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- main js -->
+    <script src="js/main.js"></script>
+
+    <!-- vendor js -->
+    <script src="vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script>
+        let swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 40,
+            centeredSlides: true,
+            grabCursor: true,
+            pagination: {
+                el: ".swiper-pagination",
+                dynamicBullets: true,
+                clickable: true,
+            },
+        });
+    </script>
+
+    <!-- animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
